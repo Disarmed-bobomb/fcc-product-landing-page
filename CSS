@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#page-wrapper {
+  position: relative;
+  background-color: #406063;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  position: fixed;
+  top: 0;
+  min-height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 45px;
+  background-color: lightgray;
+  width: 100%
+  
+}
+#logo > img {
+  height: 100%;
+  width: 100%;
+  max-width: 100px;
+
+}
+li {
+  list-style: none;
+}
+a {
+  color: 000;
+  text-decoration: none;
+}
+#slogan {
+  margin-top: 100px
+}
+section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#membership-tiers {
+  margin-top: 30px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 650px;
+  margin: 0 auto;
+}
+#video {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+.grid {
+  margin: 10px;
+}
+
+@media (max-width:680px) {
+  font-family: sans-serif;
+}
